@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class Gas : MonoBehaviour
 {
+    private RandomGas _randomGas;
+    
     public float gas = 30.0f;
     public float moveSpeed = 10.0f;
     public float limitPosition = 20.0f;
     
-    private RandomGas _randomGas;
 
     private void OnDisable()
     {
+        if (!gameObject.activeSelf) return;
         _randomGas.ReturnToPool(gameObject);
     }
 

@@ -17,11 +17,15 @@ public class CarController : MonoBehaviour
     private Camera _camera;
     public float CurrentGas { get; set; }
     private float _timeElapsed  = 0f;
-    
-    // Start is called before the first frame update
+
+    void Start()
+    {
+        _camera = Camera.main;
+        CurrentGas = maxGas;
+        _timeElapsed = 0f;
+    }
     void OnEnable()
     {   
-        _camera = Camera.main;
         CurrentGas = maxGas;
         _timeElapsed = 0f;
     }

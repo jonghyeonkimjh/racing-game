@@ -5,6 +5,8 @@
 게임이 실행되면 **"게임 시작" 패널**이 나타납니다.  
 화면에서 **"게임 시작" 버튼**을 클릭하면 게임이 시작됩니다.
 
+<img src="images/StartGame-1.png" width="250" />
+
 ## 2. 게임 플레이
 
 ### 2-1. 주행
@@ -18,6 +20,8 @@
 도로에는 **가스 아이템**이 존재합니다. 이 가스 아이템은 자동차와 충돌하면 차량의 **gas가 30 증가**합니다.  
 가스 아이템은 **도로의 중앙, 왼쪽, 오른쪽** 3 군데 중에서 한 곳에 랜덤하게 나타납니다.
 
+<img src="images/GamePlay-2.png" width="250" />
+
 ## 3. 가스
 
 자동차는 게임 시작 시 **100의 gas**를 가지고 있습니다.  
@@ -28,12 +32,14 @@
 
 게임이 종료되면 **게임 종료 패널**이 나타납니다.  
 게임 종료 패널에는 **"게임 종료" 버튼**이 있고 해당 버튼을 클릭하면 다시 게임의 시작으로 돌아갑니다.
+<img src="images/GameOver-3.png" width="250" />
 
 ## 5. 제출
 
 - 제출은 **Github**에 **공개 저장소**를 만들어 배포하고, Github 주소를 제출합니다.
 - 과제 제출 기간은 **2025년 1월 22일**까지입니다.
 
-![Game Screenshot](images/StartGame-1.png)
-![Game Screenshot](images/GamePlay-2.png)
-![Game Screenshot](images/GameOver-3.png)
+<video width="500" controls>
+  <source src="Demo/GameDemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

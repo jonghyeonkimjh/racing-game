@@ -6,13 +6,15 @@ using Random = UnityEngine.Random;
 
 public class RandomGas : MonoBehaviour
 {
+    private readonly Queue<GameObject> _gasPool = new Queue<GameObject>();
+    
     public GameObject gasPrefab;
+    public List<float> randomPositions = new List<float>();
+    
     public int poolSize = 5;
     public float timeElapsed  = 0f;
     public float spawnTime = 3.0f;
-    public List<float> randomPositions = new List<float>(); 
     
-    private readonly Queue<GameObject> _gasPool = new Queue<GameObject>();
     
     private void Start()
     {
