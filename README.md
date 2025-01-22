@@ -39,7 +39,4 @@
 - 제출은 **Github**에 **공개 저장소**를 만들어 배포하고, Github 주소를 제출합니다.
 - 과제 제출 기간은 **2025년 1월 22일**까지입니다.
 
-<video width="500" controls>
-  <source src="Demo/GameDemo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="images/GameDemo.gif" width="250" />
